@@ -1,1 +1,1 @@
-# 30-Projects-JS-
+# 30-Projects (JS)
