@@ -4,3 +4,4 @@
 2. Todo List App
 3. Quiz App
 4. Random Password Genrator
+5. Notes App
