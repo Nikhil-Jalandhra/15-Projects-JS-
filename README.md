@@ -9,3 +9,4 @@
 7. Quote Generator App
 8. QR Code Generator Website
 9. Toast Notification App
+10. Music Player App
