@@ -1,4 +1,4 @@
-# 30 Projects (Practicing JavaScript)
+# 30 Projects (Practicing Vanilla JavaScript)
 
 1. Weather App [Api]
 2. Todo List App
