@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-0.3turn,#0b2c24,#247a4d);
+}
+
+.searchBar{
+    width: 500px;
+    height: 50px;
+    margin-top: 100px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.searchBar input{
+    flex: 1;
+    height: 100%;
+    padding: 5px 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: linear-gradient(-0.3turn,#247a4d,#0b2c24);
+    color: white;
+}
+
+.searchBar input::-webkit-input-placeholder{
+    color: white;
+}
+.searchBar button{
+    padding: 10px 20px;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 25px;
+    color: white;
+    background: #247a4d;
+}
+
+.searchBar button:hover{
+    background: #36aa78;
+}
+
+.result{
+    margin-top: 100px;
+    width: 750px;
+    min-height: 160px;
+    background-color: #36aa78;
+    display: flex;
+    border-radius: 15px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+}
+
+.imageContainer{
+    margin: 30px 40px 0 50px;
+    width: 150px;
+    height: 150px;
+    background: wheat;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: black 1px 1px 20px;
+}
+
+.imageSection{
+    width: 250px;
+}
+
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+.details h1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.threeElem{
+    display: flex;
+    font-size: 20px;
+}
+
+.status{
+    margin-right: 20px;
+    
+}
+
+#bio{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+#repos{
+    margin-top: 10px;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    margin-right: 10px;
+    text-decoration: none;
+    color: yellow;
+}
+
+
+.link:hover{
+    color: white;
+}
